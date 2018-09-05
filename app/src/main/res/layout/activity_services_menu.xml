@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/intent_service"/>
+
+    <Button
+        android:id="@+id/btn_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/service"/>
+
+    <Button
+        android:id="@+id/btn_bound_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="@string/bound_service"/>
+    <Button
+        android:id="@+id/btn_job_scheduler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="@string/job_scheduler"/>
+</LinearLayout>
